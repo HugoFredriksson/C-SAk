@@ -1,0 +1,16 @@
+C:\Users\Admin\Desktop\ugh\bin\Debug\net5.0\ugh.exe
+C:\Users\Admin\Desktop\ugh\bin\Debug\net5.0\ugh.deps.json
+C:\Users\Admin\Desktop\ugh\bin\Debug\net5.0\ugh.runtimeconfig.json
+C:\Users\Admin\Desktop\ugh\bin\Debug\net5.0\ugh.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\ugh\bin\Debug\net5.0\ugh.dll
+C:\Users\Admin\Desktop\ugh\bin\Debug\net5.0\ref\ugh.dll
+C:\Users\Admin\Desktop\ugh\bin\Debug\net5.0\ugh.pdb
+C:\Users\Admin\Desktop\ugh\obj\Debug\net5.0\ugh.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\ugh\obj\Debug\net5.0\ugh.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\ugh\obj\Debug\net5.0\ugh.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\ugh\obj\Debug\net5.0\ugh.AssemblyInfo.cs
+C:\Users\Admin\Desktop\ugh\obj\Debug\net5.0\ugh.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\ugh\obj\Debug\net5.0\ugh.dll
+C:\Users\Admin\Desktop\ugh\obj\Debug\net5.0\ref\ugh.dll
+C:\Users\Admin\Desktop\ugh\obj\Debug\net5.0\ugh.pdb
+C:\Users\Admin\Desktop\ugh\obj\Debug\net5.0\ugh.genruntimeconfig.cache
