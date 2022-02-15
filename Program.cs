@@ -1,44 +1,45 @@
-﻿using System;
+using System;
+using System.Collections.Generic;
 using System.Diagnostics;
-using System.Threading;
- 
 
-namespace ugh
+namespace yuh
 {
     class Program
     {
         static void Main(string[] args)
         {
-            
+
+        List<int> intList = new List<int>(); 
+
         Random arr = new Random();
-        int[] intArr = new int[2000];
 
-        Stopwatch stopwatch = new Stopwatch();
+        Stopwatch watch = new Stopwatch();
 
-        stopwatch.Start();
-
-        for (int i = 0; i < intArr.Length; i++)
-        {
-            int num = arr.Next(1, 1000);
-            intArr[i] = num;
-            int temp;
-                for (int j = 0; j <= intArr.Length - 2; j++) {
-                for (int x = 0; x <= intArr.Length - 2; x++) {
-                    if (intArr[x] > intArr[x + 1]) {
-                        temp= intArr[x + 1];
-                        intArr[x + 1] = intArr[x];
-                        intArr[x] = temp;
-               }
-               
+        for(int i = 0; intList.Count < 1000; i++){
+                intList.Add(arr.Next(1, 1001));
             }
-         }
-        }
-        stopwatch.Stop();
-        Console.WriteLine("Här är de sorterade:");
-        foreach (int p in intArr)
-            Console.Write(p + " ");
+
+        watch.Start();
+            for(int i = 0; i < intList.Count- 1; i++){
+                for(int j = 0; j < intList.Count -1; j++){
+                    if(intList[j] > intList[j+1]){
+                        int a = intList[j];
+                        intList[j] = intList[j + 1];
+                        intList[j+1] = a;
+                    }
+                }
+            }
+            watch.Stop();
+    
+            foreach(int i in intList){
+                Console.WriteLine(i);
+            }
+
+            Console.WriteLine(watch.ElapsedMilliseconds + " ms");
+        foreach (int i in intList)
+            Console.Write(i +" ");
         Console.Read();
-        Console.WriteLine("Tiden: {0} ms", stopwatch.ElapsedMilliseconds);
+        Console.WriteLine("Tiden: {0} ms", watch.ElapsedMilliseconds);
         
 
 
